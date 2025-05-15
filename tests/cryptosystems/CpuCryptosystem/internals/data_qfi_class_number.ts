@@ -1,0 +1,207 @@
+import { ClassGroup } from '../../../../src/cryptosystems/CPUCryptoSystem/internals/qfi';
+
+export const classgroupNumberTestData: [ClassGroup, bigint, bigint][] = [
+  [new ClassGroup(BigInt('-3')), BigInt('1'), BigInt('1')],
+  [new ClassGroup(BigInt('-4')), BigInt('1'), BigInt('1')],
+  [new ClassGroup(BigInt('-7')), BigInt('1'), BigInt('1')],
+  [new ClassGroup(BigInt('-8')), BigInt('1'), BigInt('1')],
+  [new ClassGroup(BigInt('-11')), BigInt('1'), BigInt('1')],
+  [new ClassGroup(BigInt('-15')), BigInt('2'), BigInt('2')],
+  [new ClassGroup(BigInt('-19')), BigInt('1'), BigInt('1')],
+  [new ClassGroup(BigInt('-20')), BigInt('2'), BigInt('2')],
+  [new ClassGroup(BigInt('-23')), BigInt('3'), BigInt('3')],
+  [new ClassGroup(BigInt('-24')), BigInt('2'), BigInt('2')],
+  [new ClassGroup(BigInt('-31')), BigInt('3'), BigInt('3')],
+  [new ClassGroup(BigInt('-55')), BigInt('4'), BigInt('4')],
+  [new ClassGroup(BigInt('-328')), BigInt('4'), BigInt('3')],
+  [new ClassGroup(BigInt('-4043')), BigInt('16'), BigInt('12')],
+  [new ClassGroup(BigInt('-25651')), BigInt('32'), BigInt('24')],
+  [new ClassGroup(BigInt('-171027')), BigInt('104'), BigInt('79')],
+  [new ClassGroup(BigInt('-1594568')), BigInt('828'), BigInt('625')],
+  [new ClassGroup(BigInt('-16177672')), BigInt('792'), BigInt('602')],
+  [new ClassGroup(BigInt('-95535787')), BigInt('1315'), BigInt('984')],
+  [new ClassGroup(BigInt('-992054436')), BigInt('9504'), BigInt('7107')],
+  [new ClassGroup(BigInt('-7510901359')), BigInt('51600'), BigInt('38917')],
+  [new ClassGroup(BigInt('-35722661144')), BigInt('88250'), BigInt('64721')],
+  [new ClassGroup(BigInt('-282916817995')), BigInt('57696'), BigInt('42896')],
+  [
+    new ClassGroup(BigInt('-2874630089236')),
+    BigInt('566820'),
+    BigInt('435968'),
+  ],
+  [
+    new ClassGroup(BigInt('-29596179655127')),
+    BigInt('3716176'),
+    BigInt('2754038'),
+  ],
+  [
+    new ClassGroup(BigInt('-281472760124479')),
+    BigInt('12808448'),
+    BigInt('9547473'),
+  ],
+  [
+    new ClassGroup(BigInt('-1514356302102856')),
+    BigInt('8747092'),
+    BigInt('6518698'),
+  ],
+  [
+    new ClassGroup(BigInt('-12023768479316295')),
+    BigInt('61406624'),
+    BigInt('46158629'),
+  ],
+  [
+    new ClassGroup(BigInt('-76675600510080699')),
+    BigInt('79914464'),
+    BigInt('59452426'),
+  ],
+  [
+    new ClassGroup(BigInt('-1119155783954691971')),
+    BigInt('506019492'),
+    BigInt('379293841'),
+  ],
+  [
+    new ClassGroup(BigInt('-6543414789273092372')),
+    BigInt('965163838'),
+    BigInt('722725497'),
+  ],
+  [
+    new ClassGroup(BigInt('-53054304724884472152')),
+    BigInt('2231209984'),
+    BigInt('1654378549'),
+  ],
+  [
+    new ClassGroup(BigInt('-584904991359793198180')),
+    BigInt('4328666304'),
+    BigInt('3232893864'),
+  ],
+  [
+    new ClassGroup(BigInt('-3424677491205195185767')),
+    BigInt('18326192160'),
+    BigInt('13790217500'),
+  ],
+  [
+    new ClassGroup(BigInt('-20896054865667207820323')),
+    BigInt('17976227008'),
+    BigInt('13492564065'),
+  ],
+  [
+    new ClassGroup(BigInt('-186016799694923190930792')),
+    BigInt('79163872320'),
+    BigInt('59367930484'),
+  ],
+  [
+    new ClassGroup(BigInt('-2213307734443466579732843')),
+    BigInt('387375472064'),
+    BigInt('290537299488'),
+  ],
+  [
+    new ClassGroup(BigInt('-16798945532486324138722379')),
+    BigInt('1840455996304'),
+    BigInt('1379164724122'),
+  ],
+  [
+    new ClassGroup(BigInt('-148949205548541343637838035')),
+    BigInt('3648754967088'),
+    BigInt('2736361494892'),
+  ],
+  [
+    new ClassGroup(BigInt('-808250238174888020839697119')),
+    BigInt('20499771258912'),
+    BigInt('15293897628662'),
+  ],
+  [
+    new ClassGroup(BigInt('-5917617258507256821458691015')),
+    BigInt('51890620706880'),
+    BigInt('38869783938630'),
+  ],
+  [
+    new ClassGroup(BigInt('-69725168030864388119406557019')),
+    BigInt('55516803677216'),
+    BigInt('41254180221673'),
+  ],
+  [
+    new ClassGroup(BigInt('-400852426596855647859713401579')),
+    BigInt('154034494908352'),
+    BigInt('115470824298774'),
+  ],
+  [
+    new ClassGroup(BigInt('-5051655154418769247104311099431')),
+    BigInt('1235737881628152'),
+    BigInt('928502745688856'),
+  ],
+  [
+    new ClassGroup(BigInt('-23891560995488788372538248080532')),
+    BigInt('766029790670024'),
+    BigInt('575545293503906'),
+  ],
+  [
+    new ClassGroup(BigInt('-213692844916653204486229143521371')),
+    BigInt('1762669856659308'),
+    BigInt('1320147207880614'),
+  ],
+  [
+    new ClassGroup(BigInt('-2237471401898079113856503752028248')),
+    BigInt('15489414323286016'),
+    BigInt('11593742257244345'),
+  ],
+  [
+    new ClassGroup(BigInt('-16787278419413503432511334710087731')),
+    BigInt('23826129808035328'),
+    BigInt('17825635859563467'),
+  ],
+  [
+    new ClassGroup(BigInt('-141932394123624331046879214202405515')),
+    BigInt('108599463644156760'),
+    BigInt('81494760827516632'),
+  ],
+  [
+    new ClassGroup(BigInt('-1038122552773787120913520271558991064')),
+    BigInt('277520926317651912'),
+    BigInt('208536129670777543'),
+  ],
+  [
+    new ClassGroup(BigInt('-6196109073757577084883438422061108691')),
+    BigInt('710412264547970560'),
+    BigInt('532275498984170934'),
+  ],
+  [
+    new ClassGroup(BigInt('-43527800768431586444382989232511483619')),
+    BigInt('3377158249437903868'),
+    BigInt('2510580498580190031'),
+  ],
+  [
+    new ClassGroup(BigInt('-436663972109975552860076857334705376759')),
+    BigInt('20041084638330987680'),
+    BigInt('15021493859401940458'),
+  ],
+  [
+    new ClassGroup(BigInt('-3210366629372923673787645648171938314052')),
+    BigInt('21162172609773413696'),
+    BigInt('15901786499211191524'),
+  ],
+  [
+    new ClassGroup(BigInt('-36661471386313304479191075936091733011028')),
+    BigInt('56469538699032548128'),
+    BigInt('42028457864029180030'),
+  ],
+  [
+    new ClassGroup(BigInt('-313451333869966829588768872915007414631443')),
+    BigInt('194435471622082067324'),
+    BigInt('145920115406049127060'),
+  ],
+  [
+    new ClassGroup(BigInt('-2080111604081536094030115355251379384533167')),
+    BigInt('1108860218329620358480'),
+    BigInt('834987741261002435442'),
+  ],
+  [
+    new ClassGroup(BigInt('-11727540791885031791828159500175590305307767')),
+    BigInt('2517519244294284830912'),
+    BigInt('1897940196064637454836'),
+  ],
+  [
+    new ClassGroup(BigInt('-173956326576414037633389133312104685029954967')),
+    BigInt('4540766208833873046484'),
+    BigInt('3409159015824373120180'),
+  ],
+];

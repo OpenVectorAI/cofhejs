@@ -1,0 +1,1 @@
+For now we have only implemented a bare minimum for allowing developers to develop DAPPs with OpenVector Coprocessor. Later we will be adding more complete CoFHE library. You can look at the `pycofhe` or `libcofhe` for the list of features that we support.
